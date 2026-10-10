@@ -1,0 +1,25 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Sensitive crash logs & execution plans
+crash.log
+crash.*.log
+*.tfplan
+
+# Sensitive variable definition files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Environment variables & system files
+.env
+.DS_Store
+Thumbs.db
